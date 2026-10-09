@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Printable CSET489 Milestone 1 SEO project report: student skincare niche, keyword plan, SERP and competitor research, site architecture, and deployment evidence checklist."
+    />
+    <title>CSET489 Milestone 1 | Skinwise SEO Project</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #24372f;
+        --muted: #65756d;
+        --line: #dce6df;
+        --paper: #fffefb;
+        --wash: #f2f6ef;
+        --leaf: #316b52;
+        --amber: #8b5c12;
+        --amber-wash: #fff5df;
+        --rose: #8b3e3d;
+        --rose-wash: #fff0ed;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: #edf2ed;
+        color: var(--ink);
+        font: 15px/1.62 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      main {
+        width: min(1050px, calc(100% - 32px));
+        margin: 28px auto;
+        padding: 54px 68px 64px;
+        background: var(--paper);
+        box-shadow: 0 18px 60px #1b3d2b12;
+      }
+      h1, h2, h3 { line-height: 1.2; color: #1d352b; }
+      h1 { margin: 8px 0 12px; font: 500 clamp(34px, 5vw, 52px)/1.05 Georgia, serif; letter-spacing: -.035em; }
+      h2 { margin: 46px 0 15px; padding-bottom: 9px; border-bottom: 1px solid var(--line); font: 500 28px/1.15 Georgia, serif; }
+      h3 { margin: 25px 0 9px; font-size: 17px; }
+      p { margin: 9px 0 14px; }
+      a { color: var(--leaf); overflow-wrap: anywhere; }
+      ul, ol { padding-left: 23px; }
+      li { margin: 5px 0; }
+      .eyebrow { color: var(--leaf); font-size: 11px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
+      .subtitle { max-width: 720px; color: var(--muted); font-size: 18px; }
+      .cover { padding: 20px 0 25px; border-bottom: 3px solid #d7e6d7; }
+      .meta { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 24px; margin-top: 28px; padding: 18px 20px; background: var(--wash); border-radius: 10px; }
+      .meta div { min-height: 26px; }
+      .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+      .status { margin: 24px 0; padding: 16px 18px; border-left: 4px solid var(--amber); background: var(--amber-wash); }
+      .warning { padding: 14px 16px; border-left: 4px solid var(--rose); background: var(--rose-wash); }
+      .note { padding: 13px 16px; background: var(--wash); border-radius: 8px; }
+      .tag { display: inline-block; margin: 3px 5px 3px 0; padding: 3px 9px; border: 1px solid var(--line); border-radius: 99px; color: var(--muted); font-size: 11px; }
+      table { width: 100%; margin: 14px 0 21px; border-collapse: collapse; font-size: 13px; }
+      th { padding: 9px 10px; background: #eaf1e9; color: #2b4939; text-align: left; vertical-align: top; }
+      td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+      tr { break-inside: avoid; }
+      code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      pre { padding: 14px 16px; overflow-wrap: anywhere; white-space: pre-wrap; background: #f1f4f0; border: 1px solid var(--line); border-radius: 8px; font-size: 12px; line-height: 1.5; }
+      .small { color: var(--muted); font-size: 12px; }
+      .toolbar { display: flex; justify-content: flex-end; gap: 10px; margin-bottom: 22px; }
+      button, .download { display: inline-block; border: 0; border-radius: 99px; padding: 10px 16px; background: var(--leaf); color: white; font: inherit; font-size: 13px; text-decoration: none; cursor: pointer; }
+      .download { background: #eaf1e9; color: var(--ink); }
+      .subtle { color: var(--muted); }
+      .page-break { break-before: page; }
+      @media (max-width: 700px) {
+        main { width: 100%; margin: 0; padding: 28px 20px 42px; }
+        .meta { grid-template-columns: 1fr; }
+        table { display: block; overflow-x: auto; }
+      }
+      @media print {
+        @page { size: A4; margin: 16mm 14mm; }
+        body { background: white; font-size: 10pt; }
+        main { width: 100%; margin: 0; padding: 0; box-shadow: none; }
+        .toolbar { display: none; }
+        a { color: inherit; text-decoration: none; }
+        h2 { break-after: avoid; }
+        .status, .warning, .note { break-inside: avoid; }
+        table { font-size: 8.5pt; }
+        th, td { padding: 6px; }
+        pre { font-size: 8pt; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="toolbar">
+        <a class="download" href="/keyword-research-template.csv" download>Download keyword template</a>
+        <button type="button" onclick="window.print()">Print / Save as PDF</button>
+      </div>
+
+      <header class="cover">
+        <div class="eyebrow">CSET489 · Search Engine Optimization · Milestone I</div>
+        <h1>Skinwise Student Skincare</h1>
+        <p class="subtitle">SEO research, site architecture, and a deployment plan for practical beginner skincare guidance for college students in India.</p>
+        <div class="meta">
+          <div><span class="label">Student name</span><br />[Your full name]</div>
+          <div><span class="label">Roll number</span><br />[Your roll number]</div>
+          <div><span class="label">Course</span><br />CSET489 · Search Engine Optimization</div>
+          <div><span class="label">Research snapshot</span><br />6 October 2026 · India · English (proposed)</div>
+          <div><span class="label">Live WordPress URL</span><br />[Add after domain, DNS, VPS, and WordPress setup]</div>
+          <div><span class="label">Submission filename</span><br />CSET489_SEO_Assignment_[RollNo]_[YourName].pdf</div>
+        </div>
+      </header>
+
+      <div class="status">
+        <strong>Draft status—complete the evidence fields before submitting.</strong>
+        The niche, personas, initial keyword set, content map, observed competitor-page review, roadmap, and deployment instructions are prepared. Search-volume and SEO difficulty numbers, a Google India SERP capture, competitor backlink metrics, the registered domain, DNS/VPS/WordPress proof, and live URL still require verification from your own tools and accounts. No metrics or deployment evidence have been invented.
+      </div>
+
+      <h2>1. Project overview</h2>
+      <p><strong>Working niche:</strong> Affordable, beginner-friendly skincare education for college students in India.</p>
+      <p><strong>Proposed site name:</strong> Skinwise Student Skincare. A domain name has not been selected or checked for availability; choose and register one only after checking it at a registrar.</p>
+      <p><strong>Project goal:</strong> Publish a small, useful WordPress resource that answers beginner skincare questions with simple explanations, realistic budget framing, clear citations, and no unsupported promises about treating or curing skin conditions.</p>
+      <h3>Niche justification (147 words)</h3>
+      <p>Affordable beginner skincare for Indian college students is an SEO niche with a clear audience and recurring educational search needs. An exploratory India-oriented result sample surfaced beginner and minimal-routine guides from Smytten and CodeSkin India plus skin-care editorial content on Nykaa's Beauty Book. The pages emphasize practical formats such as AM/PM routines, product order, and common beginner mistakes. Brand and retail links were visible on the pages inspected. India's dermatologist association IADVL also publishes basic skincare guidance, giving the project an authoritative reference source. This supports a testable opportunity for an independent, non-commercial student guide focused on simple routines, realistic budgets, campus schedules, and clearly cited advice. These observations are qualitative; the exploratory sample does not establish Google rankings, monthly search volume, or demand size. The next research step is to capture India/English keyword metrics and a Google India SERP sample before claiming market size.</p>
+
+      <h3>Primary audience persona</h3>
+      <table>
+        <thead><tr><th>Persona</th><th>Situation and need</th><th>Search behavior and intent</th><th>Content response</th></tr></thead>
+        <tbody>
+          <tr><td>First-routine student</td><td>College student in India, roughly 18–24; new to skincare, price-conscious, mobile-first, short on time, overwhelmed by products and online advice.</td><td>Primarily informational: “skincare routine for beginners,” “what order do I use skincare,” “basic skincare products.” Follow-up commercial investigation: compare a few product types or price points.</td><td>Simple routine overview, explain what is optional, give selection criteria rather than unsupported product rankings, show dated INR price examples only after checking them.</td></tr>
+          <tr><td>Routine simplifier</td><td>Student already owns several products but wants to spend less time and avoid buying duplicates.</td><td>Informational/commercial: “minimal skincare routine,” “affordable skincare routine,” “AM PM skincare order.”</td><td>Minimal routine guide, purchase checklist, and “what to check on the label” explainer with medical-source citations.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Search-intent pattern</h3>
+      <ul>
+        <li><strong>Informational:</strong> understand a basic routine, product order, skin-care terminology, and beginner mistakes.</li>
+        <li><strong>Commercial investigation:</strong> compare affordable product categories or ingredients before deciding what to buy. Keep claims neutral and disclose any future affiliate relationship.</li>
+        <li><strong>Transactional:</strong> buying a named product. The proposed project is educational and does not need to target product purchase pages in Milestone I.</li>
+        <li><strong>Navigational:</strong> searches for an existing brand or publication. Do not target competitor brand names as primary keywords.</li>
+      </ul>
+
+      <h3>SEO problem statement</h3>
+      <p>New skincare readers encounter overlapping routine advice and product-led articles. Skinwise will test whether a clearly scoped, student-oriented guide can meet beginner informational intent more directly by explaining the minimum useful steps, linking medical questions to qualified sources, using transparent and date-stamped cost examples, and organizing related topics without making multiple pages compete for the same query.</p>
+
+      <h2>2. Keyword research and intent</h2>
+      <p><strong>Targeting setup:</strong> India, English, Google Search. Set the same location and language in every research tool and save the export date with your report. These are candidate terms selected from the niche and visible wording in relevant pages; their volumes and SEO difficulty have not been verified.</p>
+      <div class="warning"><strong>Important metric distinction:</strong> Google Ads Keyword Planner's “Competition” describes advertiser competition for ad placements. It is not organic SEO Keyword Difficulty (KD). Record monthly searches from Keyword Planner and obtain KD from one named SEO tool such as Ahrefs Free Keyword Generator or Ubersuggest; write the tool and lookup date beside the values. Do not fill these fields with guesses.</div>
+      <table>
+        <thead><tr><th>#</th><th>Candidate keyword</th><th>Role</th><th>Intent</th><th>Avg. monthly searches (India)</th><th>Organic KD (tool)</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>skincare routine for beginners India</td><td>Primary</td><td>Informational</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+          <tr><td>2</td><td>affordable skincare routine India</td><td>Primary</td><td>Informational / commercial investigation</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+          <tr><td>3</td><td>beginner skincare routine for Indian skin</td><td>Primary</td><td>Informational</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+          <tr><td>4</td><td>minimal skincare routine India</td><td>Primary</td><td>Informational</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+          <tr><td>5</td><td>simple skincare routine for students</td><td>Primary</td><td>Informational</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+          <tr><td>6</td><td>skincare products for beginners India</td><td>Secondary</td><td>Informational / commercial investigation</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+          <tr><td>7</td><td>basic skin care products list India</td><td>Secondary</td><td>Informational</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+          <tr><td>8</td><td>face care routine for college students</td><td>Secondary</td><td>Informational</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+          <tr><td>9</td><td>skincare order morning and night</td><td>Secondary</td><td>Informational</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+          <tr><td>10</td><td>beginner skincare routine for oily skin India</td><td>Secondary</td><td>Informational</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+          <tr><td>11</td><td>affordable sunscreen for students India</td><td>Secondary</td><td>Commercial investigation</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+          <tr><td>12</td><td>affordable moisturizer for oily skin India</td><td>Secondary</td><td>Commercial investigation</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+          <tr><td>13</td><td>gentle cleanser for skincare beginners India</td><td>Secondary</td><td>Commercial investigation</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+          <tr><td>14</td><td>how to start a skincare routine on a budget</td><td>Secondary</td><td>Informational</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+          <tr><td>15</td><td>basic skincare routine for college students India</td><td>Secondary</td><td>Informational</td><td>ADD FROM EXPORT</td><td>ADD FROM SEO TOOL</td><td>Unverified</td></tr>
+        </tbody>
+      </table>
+      <p>Use the included <a href="/keyword-research-template.csv" download>keyword-matrix CSV</a> to paste tool results. In Keyword Planner, enter several seed phrases under “Discover new keywords,” set location to India and language to English, then export average monthly searches. Check each priority term in the selected SEO tool for organic KD. Save a screenshot or export—not just a hand-copied number.</p>
+
+      <h3>Long-tail / related-term plan</h3>
+      <p class="small">Scores below are preliminary editorial judgments, not measured SEO difficulty. Competition is a directional 1–5 estimate of how crowded a relevant result set may be (1 = less crowded; 5 = very crowded). Relevance is 1–5 for the proposed audience (5 = direct fit). Re-score after capturing the Google SERP and keyword-tool export.</p>
+      <table>
+        <thead><tr><th>Long-tail / related term</th><th>Intent</th><th>Competition estimate (1–5)</th><th>Relevance (1–5)</th><th>Reason to include</th></tr></thead>
+        <tbody>
+          <tr><td>3-step skincare routine for beginners in India</td><td>Informational</td><td>3 / provisional</td><td>5</td><td>Direct routine question and narrow starting point.</td></tr>
+          <tr><td>affordable morning and night skincare routine for students</td><td>Informational</td><td>2 / provisional</td><td>5</td><td>Matches student schedule and budget constraints.</td></tr>
+          <tr><td>what order to apply cleanser moisturizer sunscreen</td><td>Informational</td><td>3 / provisional</td><td>5</td><td>Clear sequence question suitable for concise explanation.</td></tr>
+          <tr><td>basic skincare products to buy first</td><td>Informational</td><td>3 / provisional</td><td>5</td><td>Addresses early purchase decisions without naming brands.</td></tr>
+          <tr><td>simple skincare routine for oily skin in humid weather</td><td>Informational</td><td>4 / provisional</td><td>4</td><td>Useful climate context; avoid implying one routine suits all.</td></tr>
+          <tr><td>how to make a student skincare routine cheaper</td><td>Informational</td><td>2 / provisional</td><td>5</td><td>Strong audience fit and clear practical answer.</td></tr>
+          <tr><td>how to patch test a new skincare product</td><td>Informational</td><td>3 / provisional</td><td>4</td><td>Safety-related supporting topic; verify instructions from qualified sources.</td></tr>
+          <tr><td>skincare routine basics for sensitive skin beginners</td><td>Informational</td><td>4 / provisional</td><td>4</td><td>Common supporting need, but direct medical issues should be referred to a clinician.</td></tr>
+        </tbody>
+      </table>
+
+      <h2>3. SERP and ranking-page analysis</h2>
+      <div class="warning"><strong>Evidence boundary:</strong> The following pages were found and inspected as exploratory search candidates. Their Google India positions, actual People Also Ask inclusion, live snippet text, and word counts were not verified. Before submission, search the terms in Google with India as the location, record the date/device, capture the top ten organic results and PAA boxes, and attach screenshots. Do not call these “top 10 results” until measured.</div>
+      <table>
+        <thead><tr><th>Observed candidate page</th><th>Visible topic / page pattern</th><th>What it suggests</th><th>Still to measure in Google</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://codeskin.in/blogs/news/how-to-build-a-skincare-routine-for-beginners">CodeSkin India: Beginner Skincare Routine: A Simple AM and PM Guide</a></td><td>Dedicated article, named author, AM/PM framing, skin-type guidance, product order, mistakes. Page also promotes CodeSkin products and a skin-scan feature.</td><td>Beginner intent can be served with step-based structure; a commercial brand already participates in informational content.</td><td>Google rank for target query; H2s and body-word count; snippet; PAA / featured result; internal/external links.</td></tr>
+          <tr><td><a href="https://smytten.com/blogs/skincare/how-to-start-a-skincare-routine-in-india-for-beginners">Smytten: How to Start a Skincare Routine in India for Beginners</a></td><td>India-focused beginner guide with routine/product context and visible product ratings and “Shop Now” modules in the inspected page.</td><td>Local context and product selection are relevant; opportunity is to keep the student guide neutral, budget-transparent, and source-led.</td><td>Google rank; page-length count excluding navigation/product widgets; featured snippets / PAA; dates and update frequency.</td></tr>
+          <tr><td><a href="https://www.nykaa.com/beauty-blog/category/skin/skin-types-care">Nykaa Beauty Book: Skin Types &amp; Care</a></td><td>Editorial topic hub linking to multiple skincare articles; category includes routine and commerce-oriented posts.</td><td>A hub-and-article structure can support internal links; Skinwise should build a focused small cluster instead of a broad beauty portal.</td><td>Individual ranking URLs for target query; category-page SERP position; snippet / PAA; word count of the individual article, not the hub.</td></tr>
+        </tbody>
+      </table>
+      <h3>Candidate question set to validate against PAA</h3>
+      <p>These are research prompts—not confirmed Google PAA questions: “What is a basic skincare routine for beginners?”; “What order should I apply skincare products?”; “What skincare products should a beginner buy first?”; “Can I start skincare with only a few products?”; “How do I choose skincare on a student budget?”; “What is a simple morning and night routine?” Capture the actual wording, order, and date from your Google India results.</p>
+      <h3>Patterns and opportunity</h3>
+      <ul>
+        <li>Step-based AM/PM and “minimal routine” framing is visible in the inspected pages.</li>
+        <li>Product modules and retail calls to action appear on some commercial publishers. Skinwise can differentiate with transparent sourcing, dated cost examples, and no affiliate sales in the initial project.</li>
+        <li>Use a concise answer near the top, then explain product roles, choosing by comfort/label, optional steps, safety limits, and references. Add original student context (for example, a dated budget worksheet) only if you actually collect it.</li>
+        <li>No featured snippet, PAA box, word-count advantage, ranking, or search-volume result is claimed in this draft.</li>
+      </ul>
+
+      <h2>4. Competitor and content-gap analysis</h2>
+      <table>
+        <thead><tr><th>Direct search competitor</th><th>Observed query/topic target</th><th>Content / authority signals observed</th><th>Backlink profile</th><th>Actionable gap</th></tr></thead>
+        <tbody>
+          <tr><td>CodeSkin India<br /><a href="https://codeskin.in/blogs/news/how-to-build-a-skincare-routine-for-beginners">Beginner routine article</a></td><td>“beginner skincare routine”; “AM and PM skincare routine”; skin-type/product-order questions (targets inferred from title and visible headings, not verified ranking terms).</td><td>Article has a named author and a practical AM/PM structure. The same site promotes its own skin scan and products, so editorial and commercial goals coexist.</td><td><strong>Not measured.</strong> Record referring domains, backlinks, followed links, and top linked pages from Ahrefs Backlink Checker or another named tool. Save export/screenshot and date.</td><td>Make the audience explicit (college students); include an unbiased low-cost selection checklist, clear “not medical advice” limits, and external medical citations.</td></tr>
+          <tr><td>Smytten<br /><a href="https://smytten.com/blogs/skincare/how-to-start-a-skincare-routine-in-india-for-beginners">India beginner guide</a></td><td>“skincare routine in India for beginners”; routine steps and product selection (topic wording observed in title/page, not verified ranking terms).</td><td>India-specific framing and product/commerce modules were visible in the inspected page. The content links readers toward listed products.</td><td><strong>Not measured.</strong> Apply the same backlink-check method and date as for CodeSkin. Do not use a blank/blocked tool result as evidence of zero links.</td><td>Publish a non-commercial routine decision guide, clearly separate general information from clinician advice, and add a transparent, dated student budget example.</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Content-gap hypothesis:</strong> a concise, India-relevant and student-specific routine guide with clear sourcing, realistic budget logic, visible author/reviewer details, and a well-linked topic cluster. This is a hypothesis based on the inspected sample—not proof that competing pages lack every feature. Confirm it by comparing the final Google top results.</p>
+      <h3>Backlink evidence to collect</h3>
+      <ol>
+        <li>For each competitor, enter the root domain and (if supported) the inspected page URL in the same backlink-checking tool.</li>
+        <li>Record tool name, lookup date, referring domains, total backlinks, followed/nofollow split if shown, and top linked pages. Treat site-wide numbers as domain-level, not proof that a specific article received a link.</li>
+        <li>Attach screenshots/export. If the free tool limits data, state the limit and do not invent a substitute.</li>
+      </ol>
+
+      <h2>5. Site hierarchy and keyword-to-page map</h2>
+      <p>Use one clear primary query per page. Supporting phrases may appear naturally, but do not create separate pages for near-duplicates unless the Google SERP demonstrates a distinct intent.</p>
+      <table>
+        <thead><tr><th>Level / proposed URL</th><th>Page purpose</th><th>Primary keyword</th><th>Supporting terms / intent</th></tr></thead>
+        <tbody>
+          <tr><td>Home — <code>/</code></td><td>Introduce the student-focused resource and route visitors to the main guide.</td><td>student skincare guide India</td><td>affordable skincare basics; informational. Validate the exact homepage phrase in the tool export.</td></tr>
+          <tr><td>About — <code>/about/</code></td><td>Explain editorial scope, author, sourcing policy, and limits.</td><td>about Skinwise student skincare</td><td>Trust/navigation; do not target the routine article’s primary query.</td></tr>
+          <tr><td>Topic hub — <code>/skincare-basics/</code></td><td>Organize the beginner content cluster.</td><td>basic skincare guide for beginners</td><td>beginner skincare basics; informational.</td></tr>
+          <tr><td>Core guide — <code>/skincare-basics/beginner-routine/</code></td><td>Explain the beginner routine, order, optional steps, and trustworthy citations.</td><td>skincare routine for beginners India</td><td>3-step routine, AM/PM order; informational.</td></tr>
+          <tr><td>Budget guide — <code>/skincare-basics/student-budget/</code></td><td>Teach criteria for keeping a routine affordable; show dated example only after price checks.</td><td>affordable skincare routine India</td><td>basic products to buy first; informational/commercial investigation.</td></tr>
+          <tr><td>Sunscreen explainer — <code>/skincare-basics/sunscreen/</code></td><td>Link to qualified guidance and explain label terms without personal treatment claims.</td><td>sunscreen basics for skincare beginners</td><td>student sunscreen guide; informational.</td></tr>
+          <tr><td>Oily-skin routine — <code>/skincare-basics/oily-skin/</code></td><td>Address a distinct concern cautiously and refer persistent symptoms to a clinician.</td><td>beginner skincare routine for oily skin India</td><td>humid-weather routine; informational. Publish only after verifying need and source quality.</td></tr>
+          <tr><td>Contact / policy — <code>/contact/</code>, <code>/privacy/</code>, <code>/editorial-policy/</code></td><td>Provide transparency and contact details; comply with hosting and analytics choices.</td><td>Brand/navigation terms</td><td>Trust pages; not keyword-targeted articles.</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Internal links:</strong> Home → topic hub → core routine; the core routine links to budget and sunscreen explainers; each supporting page links back to the core guide. Use descriptive anchors such as “beginner skincare routine” and “student budget checklist,” not repeated exact-match anchors on every page.</p>
+
+      <h2>6. Prioritized SEO strategy and roadmap</h2>
+      <table>
+        <thead><tr><th>Priority / phase</th><th>Work</th><th>Completion evidence</th></tr></thead>
+        <tbody>
+          <tr><td>P0 · Research validation</td><td>Set India/English in Google Keyword Planner. Export average monthly searches for all 15 terms. Obtain organic KD from one SEO tool. Capture Google India SERPs and PAA for the 3–5 selected queries. Check the two competitor backlink profiles.</td><td>Tool exports/screenshots with tool, location, and date. Final keyword choices explained using measured data, not only intuition.</td></tr>
+          <tr><td>P1 · Domain and server</td><td>Register an available domain in your own account; add it to Cloudflare; provision a Linux VPS; configure DNS, web server, TLS, database, WordPress, and a non-default admin account.</td><td>Registrar/domain status (do not expose account details), Cloudflare DNS/SSL screenshots, sanitized SSH command output, reachable HTTPS WordPress site.</td></tr>
+          <tr><td>P1 · Crawlability and safety</td><td>Use valid HTTPS, one canonical host, readable permalinks, working robots.txt and XML sitemap, mobile-responsive theme, backups, updates, and strong unique passwords. Do not cache WordPress admin/login or personalized pages.</td><td>Browser/curl checks, sitemap opens as XML, robots.txt is plain text, mobile screenshot, plugin/theme settings.</td></tr>
+          <tr><td>P2 · Architecture and on-page</td><td>Create the mapped pages; one meaningful H1 per page; unique title/meta; descriptive URLs; internal links; useful image alt text. In Milestone II add/validate schema and SEO plugin settings.</td><td>Page-by-page checklist and screenshots/source view; no duplicate target query across core articles.</td></tr>
+          <tr><td>P2 · Content</td><td>Publish original homepage, About/editorial policy, and one well-sourced in-depth routine guide. Add supporting budget or sunscreen article only if research supports it.</td><td>Public URLs, author/date/source list, editorial review, and page map.</td></tr>
+          <tr><td>P3 · Off-page</td><td>Only use instructor-approved external sites for contributions; write relevant original material and use a natural anchor if a followed link is allowed. Do not buy links or spam comments.</td><td>Instructor-approved destination, published URL, visible link, and index check.</td></tr>
+          <tr><td>P3 · Measurement</td><td>Verify site in Search Console, submit sitemap, connect analytics as the course requires, and collect data over time. Search results may take weeks to reflect changes.</td><td>Verification/sitemap screenshots and dated baseline; no ranking guarantee.</td></tr>
+        </tbody>
+      </table>
+      <p class="note"><strong>Recommended technical priorities:</strong> resolve indexability and valid HTTP/HTTPS behavior first; then make the content useful and internally linked; then measure performance and refine. Google notes that SEO changes may take from hours to months to appear and recommends assessing changes over weeks, so do not promise first-week rankings.</p>
+
+      <h2>7. Domain, DNS, and Cloudflare checklist</h2>
+      <ol>
+        <li>Choose a short brand-led domain, check availability at a registrar, and register it using your account. A candidate is not a registered domain until checkout completes; no availability is claimed here.</li>
+        <li>Create a Cloudflare account and add the domain. At the registrar, replace nameservers with the exact two Cloudflare assigns. Wait for the dashboard to show the zone as active.</li>
+        <li>In Cloudflare DNS, create an <code>A</code> record for <code>@</code> pointing to the VPS public IPv4 and a <code>CNAME</code> for <code>www</code> pointing to the chosen canonical hostname (or <code>@</code>). Verify target and proxy status before testing. Do not publish a guessed IP.</li>
+        <li>In the VPS, configure the same hostname in the Nginx server block and install a valid origin certificate (Let's Encrypt/Certbot or Cloudflare Origin CA). Set Cloudflare SSL/TLS to <strong>Full (strict)</strong> only after the origin certificate works.</li>
+        <li>Choose one canonical host, redirect the other to it, and check for redirect loops. Keep WordPress admin, login, previews, and logged-in/personalized traffic out of broad HTML caching. Use WordPress-aware caching rules/plugin for public pages. Enable Cloudflare minification only after a baseline test, then retest the site so scripts or styles are not broken.</li>
+        <li>For evidence, capture Cloudflare nameserver/active status, DNS records (hide unrelated account details), Full (strict) setting, HTTPS lock and redirect, and a dated DNS propagation result.</li>
+      </ol>
+      <pre>dig +short A YOUR_DOMAIN
+dig +short NS YOUR_DOMAIN
+curl -I https://YOUR_DOMAIN/
+curl -s https://YOUR_DOMAIN/robots.txt | head -5
+curl -s https://YOUR_DOMAIN/sitemap.xml | head -5
+
+# Run propagation checks from a terminal where dig is installed.
+# Replace YOUR_DOMAIN only with the domain you registered.</pre>
+      <p class="small">Expected checks: the A query returns the VPS address; NS returns Cloudflare nameservers; HTTPS responds with a successful redirect/200; robots.txt begins with plain-text <code>User-agent:</code>; sitemap begins with XML, not the WordPress homepage HTML.</p>
+
+      <h2>8. VPS and WordPress implementation plan</h2>
+      <p>These are steps to perform in your VPS account; they have not been run by this project. Use an Ubuntu LTS image, a provider firewall, SSH keys, and the provider’s current WordPress/LEMP guide. Keep passwords, private keys, and database credentials out of this report, screenshots, and chat.</p>
+      <ol>
+        <li>Create a small Ubuntu LTS VPS and note its public IPv4. Restrict SSH to your address where possible; allow SSH, HTTP, and HTTPS in the provider firewall.</li>
+        <li>Connect using your own SSH key. Update the system, install Nginx, MySQL/MariaDB, PHP-FPM with the WordPress extensions, and a firewall. Follow the VPS vendor’s current instructions for PHP version and Nginx site configuration.</li>
+        <li>Secure the database, create a dedicated WordPress database and non-root database user, and use a unique long password. Download WordPress from WordPress.org or use WP-CLI, configure the document root and Nginx server block, then finish installation over HTTPS.</li>
+        <li>Install a maintained responsive theme, create a unique administrator account, disable unused themes/plugins, set readable permalinks, enable automatic security updates/backups, and verify that public pages load without authentication.</li>
+        <li>Issue and renew a valid TLS certificate. Configure Cloudflare Full (strict), verify both root and <code>www</code> behavior, then add caching without breaking WordPress admin or dynamic sessions.</li>
+        <li>For Milestone I, demonstrate a functional homepage, About page and one draft/published article. The SEO plugin/schema/analytics details are primarily Milestone II requirements.</li>
+      </ol>
+      <h3>Sanitized terminal evidence to capture after setup</h3>
+      <pre>date -Is
+hostnamectl
+lsb_release -a
+nginx -v
+php -v
+mysql --version
+sudo nginx -t
+sudo systemctl status nginx --no-pager
+curl -I https://YOUR_DOMAIN/
+dig +short A YOUR_DOMAIN
+
+# If WP-CLI is installed:
+wp core version --path=/var/www/YOUR_SITE</pre>
+      <p>Take screenshots of the actual output after your own deployment. Crop out public/private credentials, email addresses, IPs you do not wish to share, and any provider billing/account details. Do not submit fabricated or edited command output.</p>
+
+      <h2>9. Documentation and demonstration checklist</h2>
+      <table>
+        <thead><tr><th>Evidence item</th><th>Status before submission</th></tr></thead>
+        <tbody>
+          <tr><td>Completed report with student name/roll number</td><td>Replace bracketed fields.</td></tr>
+          <tr><td>Keyword Planner volume export for India/English</td><td>Required; not yet collected.</td></tr>
+          <tr><td>Organic KD export/screenshot from a named SEO tool</td><td>Required; not yet collected.</td></tr>
+          <tr><td>Google India SERP screenshots, ranking URLs, snippet/PAA notes, and page-pattern/length observations</td><td>Required; exploratory candidates are not a Google SERP capture.</td></tr>
+          <tr><td>Two competitor backlink profile records/screenshots</td><td>Required; counts are not yet measured.</td></tr>
+          <tr><td>Domain live URL, DNS propagation, Cloudflare SSL/DNS, and VPS/WordPress screenshots</td><td>Required; must come from your accounts.</td></tr>
+          <tr><td>Sanitized terminal logs proving server and site setup</td><td>Required; run the listed checks after installation.</td></tr>
+          <tr><td>Final PDF/DOCX and a live WordPress URL</td><td>Print this report to PDF after filling evidence; add the actual WordPress URL.</td></tr>
+        </tbody>
+      </table>
+      <h3>Short Milestone I presentation outline (about 2–3 minutes)</h3>
+      <ol>
+        <li>State the niche, target reader, and the specific information problem.</li>
+        <li>Show the measured keyword table and explain why the primary term fits the audience and intent; point out the data source and lookup date.</li>
+        <li>Compare two observed competing pages, show verified SERP/backlink evidence, and explain one real content gap.</li>
+        <li>Walk through the URL hierarchy and explain how each page has a distinct keyword target.</li>
+        <li>Open the live WordPress site; show Cloudflare DNS/SSL and one sanitized VPS command check. Clearly distinguish anything still pending.</li>
+      </ol>
+      <h3>Likely viva questions</h3>
+      <ul>
+        <li><strong>Why this niche?</strong> It serves a clearly described beginner audience with informational and commercial-investigation queries; the niche was chosen as a testable project, not because search demand or ranking was guaranteed.</li>
+        <li><strong>What is intent?</strong> The need behind a query. The core article targets informational intent; product selection questions may be commercial investigation.</li>
+        <li><strong>Is Google Ads Competition the same as keyword difficulty?</strong> No. Ads competition estimates advertiser competition. Organic KD is an SEO tool's estimate of ranking difficulty.</li>
+        <li><strong>How do you prevent cannibalization?</strong> Assign one primary query and intent to each page; consolidate overlapping drafts and use internal links to make the hierarchy clear.</li>
+        <li><strong>Why Cloudflare Full (strict)?</strong> It encrypts traffic from visitor to Cloudflare and from Cloudflare to the origin while requiring a valid origin certificate.</li>
+        <li><strong>Can you guarantee a ranking?</strong> No. Search systems and competition change; measure crawl/index status and query performance over time.</li>
+      </ul>
+
+      <h2>10. Sources and research notes</h2>
+      <ul>
+        <li><a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide">Google Search Central — SEO Starter Guide</a> (site organization, descriptive URLs, discovery, user-first SEO).</li>
+        <li><a href="https://support.google.com/google-ads/answer/7337243?hl=en-IN">Google Ads Help — Use Keyword Planner</a> (keyword discovery and search estimates).</li>
+        <li><a href="https://support.google.com/google-ads/answer/3022575?hl=en">Google Ads Help — About Keyword Planner forecasts</a> (average monthly searches and advertising competition definitions).</li>
+        <li><a href="https://ahrefs.com/keyword-generator">Ahrefs Free Keyword Generator</a> (candidate source for a separately named organic KD value; check current free-tool limits).</li>
+        <li><a href="https://ahrefs.com/backlink-checker">Ahrefs Free Backlink Checker</a> (candidate source for competitor backlink snapshots; record limitations/date).</li>
+        <li><a href="https://public.iadvl.org/skin-care-basics">IADVL Public — Skin Care Basics</a> (Indian dermatology association public education).</li>
+        <li><a href="https://www.aad.org/public/everyday-care/skin-care-basics/care">American Academy of Dermatology — Basic Skin Care</a> (dermatologist-authored public guidance).</li>
+        <li><a href="https://codeskin.in/blogs/news/how-to-build-a-skincare-routine-for-beginners">CodeSkin India — Beginner Skincare Routine</a> (competitor-page observation).</li>
+        <li><a href="https://smytten.com/blogs/skincare/how-to-start-a-skincare-routine-in-india-for-beginners">Smytten — How to Start a Skincare Routine in India for Beginners</a> (competitor-page observation).</li>
+        <li><a href="https://www.nykaa.com/beauty-blog/category/skin/skin-types-care">Nykaa Beauty Book — Skin Types &amp; Care</a> (topic-hub observation).</li>
+        <li><a href="https://www.youtube.com/watch?v=1jXDrpas5ak">Course reference video — domain availability and ideation</a>; the handbook also links the complete practical-labs playlist for registrar, Cloudflare, SSH, VPS, and WordPress steps.</li>
+        <li><a href="https://www.youtube.com/playlist?list=PLkp7D8a8I7CDVIOlcuGhe_WNgPdqhaeaH">Complete course practical-labs playlist</a> (domain registration, Cloudflare, SSH, VPS, and WordPress setup).</li>
+      </ul>
+      <p class="small">The source pages were inspected for this draft on 6 October 2026. SERPs, keyword metrics, backlink metrics, tools, and page contents can change. Reopen each source, capture the measurement date, and replace this note with your actual research date before final submission.</p>
+      <div class="warning"><strong>Submission check:</strong> Do not submit this report as final while fields say “ADD FROM EXPORT,” “Not measured,” or “[Your …].” Complete the account-dependent evidence, add your actual WordPress URL, and save as <code>CSET489_SEO_Assignment_[RollNo]_[YourName].pdf</code>.</div>
+    </main>
+  </body>
+</html>
